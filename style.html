@@ -1,0 +1,24 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="container">
+  <button onclick="openGift()">Open Gift 🎁</button>
+
+  <div class="gift-box">
+    <div id="lid" class="lid"></div>
+
+    <div id="surprise" class="surprise">
+      ❤️ Happy Birthday Dad ❤️
+    </div>
+
+    <div class="box"></div>
+  </div>
+</div>
+
+<script>
+function openGift() {
+  document.getElementById("lid").classList.add("open");
+  document.getElementById("surprise").classList.add("show");
+}
+</script>
