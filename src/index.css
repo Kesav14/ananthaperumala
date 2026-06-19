@@ -23,7 +23,7 @@
   font-size: 10px;
   color: white;
   font-family: Montserrat;
-  margin-left: 100px;
+  margin-left: 75px;
   margin-top: 13px;
 
   text-decoration: none;
@@ -32,7 +32,7 @@
 
 
 .home-text2{
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .call-action{
@@ -40,7 +40,7 @@
   height: 25px;
   border-radius: 40px;
   border: none;
-  margin-left: 90px;
+  margin-left: 55px;
   margin-top: 8px;
   text-decoration: none;
   display: inline;
@@ -70,7 +70,7 @@
 }
 
 .footer{
-  width: 412px;
+  width: 360px;
   height: 72px;
   background-color: #898989;
   margin-top: 0px;
@@ -78,10 +78,10 @@
 }
 
 .logo-footer{
-  width: 72px;
-  height: 63px;
+  width: 60px;
+  height: 51px;
   margin-left: 9px;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .happy-birthday{
@@ -89,9 +89,9 @@
   font-family: Montserrat;
   font-weight: bolder;
   text-align: center;
-  font-size: 13px;
-  margin-top: 20px;
-  margin-left: 72px;
+  font-size: 12px;
+  margin-top: 22px;
+  margin-left: 42px;
 }
 
 .author{
@@ -99,7 +99,7 @@
   font-weight: bolder;
   font-size: 13px;
   color: black;
-  margin-top: 20px;
-  margin-left: 66px;
+  margin-top: 22px;
+  margin-left: 26px;
   text-align: left;
 }
