@@ -3,15 +3,37 @@ import './Home.css'
 function HomePage(){
   return(
     <>
-    <div className="hero-images">
+    <div className="hero-images" data-aos="fade-in">
           <img src="src/assets/dad-1.png" alt="" className="hero-1" />
           <img src="src/assets/dad-2.png" alt="" className="hero-2" />
           <img src="src/assets/dad-3.png" alt="" className="hero-3" />
     </div>
-    <div className="why-special"><p className='why-special-text'> Why you're so special</p></div>
-    <img src="src/assets/arrow-down.png" alt="" className="arrowdown" />
-    <div className="because"><p className="because-text">Because you are my dad</p></div>
-    <div className="dad-stats"></div>
+    <div className="why-special" data-aos="fade-in"><p className='why-special-text'> Why you're so special</p></div>
+    <img src="src/assets/arrow-down.png" alt="" className="arrowdown" data-aos="fade-in" />
+    <div className="because" data-aos="fade-in"><p className="because-text">Because you are my dad</p></div>
+    <div className="dad-stats" data-aos="fade-in">
+      <img src="src/assets/stats.png" alt="" className="stats-img" />
+      <p className="stats-text">DAD STATS</p>
+      <img src="src/assets/stats.png" alt="" className="stats-img2" />
+    </div>
+    <img src="src/assets/arrow-down.png" alt="" className="arrowdown2" data-aos="fade-in" />
+    <div className="tea-break" data-aos="fade-in">
+      <p className="tea-text">TEA BREAKS-COUNTLESS</p>
+      <img src="src/assets/teaimg.png" alt="" className="tea-img" />
+    </div>
+    <div className="hardwork" data-aos="fade-in">
+      <p className="years">YEARS OF <br /> HARDWORK-24 YEARS</p>
+      <img src="src/assets/hardimg.png" alt="" className="hard-img" />
+    </div>
+    <div className="problems" data-aos="fade-in">
+      <p className="problems-text">PROBLEMS SOLVED-TOO MANY</p>
+      <img src="src/assets/problemsimg.png" alt="" className="problems-img" />
+    </div>
+    <div className="extra-comments" data-aos="fade-in">
+      <p className="extra-text">EXTRA COMMENTS</p>
+      <img src="src/assets/commentimg.png" alt="" className="comment-img" />
+    </div>
+    <img src="src/assets/comedyimg.png" alt="" className="comedy-img"  data-aos="fade-in"/>
     </>
   )
 }

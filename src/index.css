@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header-div{
+  width: 100%;
+  height: 37px;
+  background-color: #0571FE;
+  display: flex;
+}
+
+.logo{
+  width: 39px;
+  height: 34px;
+  margin-left: 10px;
+}
+
+.home-text2,
+.home-text{
+  width: 25px;
+  height: 10px;
+  font-size: 10px;
+  color: white;
+  font-family: Montserrat;
+  margin-left: 100px;
+  margin-top: 13px;
+
+  text-decoration: none;
+
+}
+
+
+.home-text2{
+  margin-left: 40px;
+}
+
+.call-action{
+  width: 60px;
+  height: 25px;
+  border-radius: 40px;
+  border: none;
+  margin-left: 90px;
+  margin-top: 8px;
+  text-decoration: none;
+  display: inline;
+}
+
+.view-gallery{
+  color: black;
+  font-family: Montserrat;
+  font-size: 6px;
+  margin-top: 3px;
+  width: 59px;
+  height: 6px;
+  text-decoration: none;
+}
+
+.journey-img{
+  width: 15px;
+  height: 13px;
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.hero-images{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.footer{
+  width: 412px;
+  height: 72px;
+  background-color: #898989;
+  margin-top: 0px;
+  display: flex;
+}
+
+.logo-footer{
+  width: 72px;
+  height: 63px;
+  margin-left: 9px;
+  margin-top: 4px;
+}
+
+.happy-birthday{
+  color: black;
+  font-family: Montserrat;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 72px;
+}
+
+.author{
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 13px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 66px;
+  text-align: left;
+}
