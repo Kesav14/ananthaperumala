@@ -5,7 +5,7 @@ function Header(){
   return (
     <>
       <div className="header-div">
-        <img src="src\assets\Logo.png" alt="" className='logo' />
+        <img src="/Logo.png" alt="" className='logo' />
         <Link to="/" className="home-text">
           Home
         </Link>
@@ -15,7 +15,7 @@ function Header(){
         <Link to="/gallery">
           <button className="call-action">
             <p className="view-gallery">View your gallery</p>
-            <img src="src/assets/journey.png" alt="" className="journey-img" />
+            <img src="/journey.png" alt="" className="journey-img" />
           </button>
         </Link>
         
