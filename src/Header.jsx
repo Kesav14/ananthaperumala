@@ -5,7 +5,9 @@ function Header(){
   return (
     <>
       <div className="header-div">
-        <img src="/Logo.png" alt="" className='logo' />
+        <Link to="">
+          <img src="/Logo.png" alt="" className='logo' />
+        </Link>
         <Link to="/" className="home-text">
           Home
         </Link>
