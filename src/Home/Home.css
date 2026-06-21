@@ -10,7 +10,7 @@
   border-radius: 30px;
   padding: 10px 10px;
   margin-top: 10px;
-  margin-left: 80px;
+  margin-left: 72px;
 }
 .why-special-text{
   color: black;
@@ -23,12 +23,11 @@
 .arrowdown2,
 .arrowdown{
   margin-top: 5px;
-  margin-left: 170px;
+  margin-left: 160px;
 }
 
 .arrowdown2{
   margin-top: 10px;
-  margin-left: 165px;
 }
 
 .because{
@@ -36,7 +35,7 @@
   height: 45px;
   background-color: #12FAE7;
   border-radius: 70px;
-  margin-left: 38px;
+  margin-left: 33px;
   display: inline-block;
 }
 
@@ -85,7 +84,7 @@
   width: 241px;
   height: 65px;
   margin-top: 8px;
-  margin-left: 63px;
+  margin-left: 60px;
   border-radius: 40px;
   display: inline-block;
 }
