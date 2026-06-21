@@ -8,6 +8,10 @@
   height: 37px;
   background-color: #0571FE;
   display: flex;
+
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
 }
 
 .logo{
@@ -60,7 +64,6 @@
   width: 15px;
   height: 13px;
   margin-top: 2px;
-  text-decoration: none;
 }
 
 .hero-images{

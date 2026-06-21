@@ -1,0 +1,94 @@
+.born{
+  width: 360px;
+  height: 80px;
+  border-radius: 33px;
+  background-color: #0FD4D8;
+  margin-top: 35px;
+  display: flex;
+}
+
+.dob{
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 14px;
+  color: white;
+  margin-top: 11px;
+  margin-left: 21px;
+}
+
+.place{
+  font-family: Montserrat;
+  font-weight: lighter;
+}
+
+.baby-img{
+  width: 65px;
+  height: 70px;
+  margin-left: 111px;
+
+}
+
+.img-group{
+  margin-top: 20px;
+  margin-left: 10px;
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.last-div{
+  display: flex;
+}
+
+.last-img{
+  margin-top: 20px;
+  margin-left: 43px;
+  margin-bottom: 2px;
+}
+
+.right-side{
+  display: inline-block;
+}
+
+.gal-years{
+  width: 150px;
+  height: 63px;
+  background-color: #018FC3;
+  border-radius: 42px;
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  border: none;
+  margin-left: 2px;
+  margin-top: 80px;
+}
+
+.surprise-btn{
+  text-decoration: none;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #16CCD9;
+  border: none;
+  border-radius: 55px;
+  margin-top: 0px;
+  margin-left: 230px;
+  position: sticky;
+  right: 15px;
+  bottom: 15px;
+  z-index: 100;
+}
