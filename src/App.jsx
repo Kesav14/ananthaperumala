@@ -5,7 +5,7 @@ import AOS from "aos";
 import { useEffect } from 'react';
 import "aos/dist/aos.css";
 import './App.css'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import {HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Gallery from './Gallery/Gallery';
 import Surprise from './Surprise/Surprise';
 
@@ -38,9 +38,9 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
