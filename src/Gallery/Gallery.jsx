@@ -18,7 +18,6 @@ function Gallery(){
         </div>
         
       </div>
-      <Link to="/surprise" ><button  className='surprise-btn'>Surprise <br /> Click here</button></Link>
     </>
   )
 }
