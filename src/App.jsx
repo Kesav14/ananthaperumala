@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 import './App.css'
 import {HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Gallery from './Gallery/Gallery';
-import Surprise from './Surprise/Surprise';
 
 function AppContent() {
   const location = useLocation();
@@ -29,7 +28,6 @@ function AppContent() {
       <Routes>
         <Route path="" element={<HomePage />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/surprise" element={<Surprise />} />
       </Routes>
       <Footer />
     </>
